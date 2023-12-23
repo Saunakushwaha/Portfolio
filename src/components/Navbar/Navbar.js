@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 const goToAbout = () => {
     window.scrollTo({ top: 1250, left: 0, behavior: "smooth" });
 }
-const goToTop = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-}
+// const goToTop = () => {
+//     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+// }
 const goToContacts = () => {
     window.scrollTo({ top: 3600, left: 0, behavior: "smooth" });
 }
@@ -21,10 +21,10 @@ const goToProjects = () => {
 const Navbar = () => {
 
 
-    const [click, setClick] = useState(false);
-    const handleclick = () => setClick(!click);
+    // const [click, setClick] = useState(false);
+    // const handleclick = () => setClick(!click);
 
-    const [color, setColor] = useState(false);
+    // const [color, setColor] = useState(false);
 
 
     return (

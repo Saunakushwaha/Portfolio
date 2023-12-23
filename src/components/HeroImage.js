@@ -1,7 +1,6 @@
 import "./HeroImagestyles.css";
 import React from 'react';
 
-import { Link } from "react-router-dom";
 import Saunak from "./assets/Saunak (3).jpg";
 
 const Heroimage = () => {
