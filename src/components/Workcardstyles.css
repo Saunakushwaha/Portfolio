@@ -1,0 +1,33 @@
+.work-container
+{
+    margin: auto;
+    width: 100vh;
+}
+.project-heading
+{
+    font-family: 'Concert One', sans-serif;
+    color: antiquewhite;
+    text-decoration-line: underline;
+    text-align: center;
+}
+.project-container
+{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+    /* grid-template-columns: 10rem 10rem 10rem;
+    grid-gap: 20rem;
+    grid-auto-flow: row;
+} */
+
+@media screen and (max-width:1024px) {
+    .project-container{
+
+       flex-direction: column;
+    }
+    
+}

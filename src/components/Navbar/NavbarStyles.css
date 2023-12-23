@@ -1,0 +1,66 @@
+.header
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.main-heading
+{
+ color:#950740 ;
+ font-family:'Pacifico', cursive;
+ font-size: x-large;
+ text-align:left;
+  margin: auto;
+ margin-left: 20px;
+
+}
+
+
+.navmenu
+{
+    display: flex;
+    flex-direction: row;
+   margin: auto;
+    color: white;
+    font-family: 'Concert One', sans-serif;;
+    margin-right: 10px;
+    
+}
+
+
+.links{
+   padding: 20px;
+   text-decoration: none;
+  color: white;
+    
+}
+.links:hover
+{
+    text-decoration: underline;
+    
+}
+
+.navmenu h2{
+    color: aliceblue;
+    text-decoration: nones;
+}
+
+.underline1
+{
+    
+    position: relative;
+    width: 99%;
+    background-color:  #950740;
+    height: 2px;
+    left: 0.5%;
+     margin-bottom: 5%;
+}
+@media only screen and (max-width:1500px) {
+    .header{
+        justify-content: space-evenly;
+    }
+    
+}
+
+   

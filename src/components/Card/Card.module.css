@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins&display=swap');
+
+.main 
+{
+    width: 375px;
+    height: 380px;
+    background-color: #F0F0F0;
+    border-radius: 15px;
+    /* margin: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+
+.imageDiv
+{
+    width: 350px;
+    background-color: black;
+    height: 180px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.heading 
+{
+    font-family: 'Concert One',sans-serif;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px 0px;
+}
+
+.headingDiv
+{
+    text-align: left;
+    width: 90%;
+ 
+
+}
+.btn
+{
+    position: relative;
+
+    
+    margin: auto;
+    left: 7%;
+    display: grid;
+    grid-template-columns: 5rem 5rem 5rem;
+    grid-gap: 9.5rem;
+    grid-auto-flow: row;
+
+    
+}
+.btns
+
+{
+    background-color:#689775;
+    border-radius: 10px;
+    width: 10vh;
+   font-size: large;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+.para
+{
+    margin: auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 770px)
+{
+    .main 
+    {
+        margin: 20px 0px;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .main 
+    {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .imageDiv
+    {
+        width: 90%;
+    }
+}
+
+
+
+

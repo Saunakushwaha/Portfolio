@@ -1,0 +1,20 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&family=Playfair+Display:wght@700&family=Poppins:wght@300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&family=Open+Sans:ital,wght@0,300;1,300&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:wght@700&family=Poppins:wght@300&display=swap');
+
+body{
+  background-color: #1a1a1a;
+  font-family: 'Concert One',sans-serif;
+  overflow-x: hidden;
+}
+.underline
+{
+    position: relative;
+    width: 99%;
+    background-color:  #950740;
+    height: 2px;
+    left: 0.5%;
+     margin-bottom: 5%;
+   
+}

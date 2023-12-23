@@ -1,0 +1,74 @@
+.aboutme
+{
+    position: relative;
+    margin: auto;
+    right: 1%;
+    font-size: xx-large;
+    font-family:'Concert One', sans-serif;
+    color: #edf5e1;
+}
+.aboutme2
+{
+    position: relative;
+    font-size: x-large;
+    left: 10%;
+    color: #edf5e1;
+    
+}
+.aboutme2 span{
+    font-style: italic;
+    color: aquamarine;
+}
+.block
+{
+    background-color:#A33327 ;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+.content
+{
+    display:flex;
+    flex-direction: row;
+}
+
+.discription{
+    
+    width: 100vh;
+    margin: auto;
+    margin-left: 10%;
+    margin-top: 5%;   
+}
+.hero-con
+{
+    display: flex;
+    flex-direction: row;
+}
+.heading1
+{
+    position: relative;
+    font-size: x-large;
+    left: 10%;
+}
+.Image{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   margin: auto;
+  margin-left: 10%;
+}
+
+ 
+
+.selfImage{
+    position: relative;
+    background-color: whitesmoke;
+    width: 50vh;
+    border-radius: 10%;
+    left: 10%;
+}
+
+
+
+
+
