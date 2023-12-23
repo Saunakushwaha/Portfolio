@@ -10,7 +10,7 @@ const Heroimage = () => {
       <div className="content">
         <div className="main-Image">
 
-          <img className="selfImage" src={Saunak} alt="Image of saunak" />"
+          <img className="selfImage" src={Saunak} alt="saunak" />"
         </div>
         <div className="aboutme">
           <h2>MY NAME IS.....</h2>
