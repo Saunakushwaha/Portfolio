@@ -50,7 +50,7 @@
     font-size: x-large;
     left: 10%;
 }
-.Image{
+.main-Image{
    display: flex;
    flex-direction: row;
    justify-content: flex-start;

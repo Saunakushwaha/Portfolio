@@ -8,7 +8,7 @@ const Heroimage = () => {
     <>
     <div className="hero">
       <div className="content">
-        <div className="Image">
+        <div className="main-Image">
 
           <img className="selfImage" src={Saunak} alt="Image of saunak" />"
         </div>
