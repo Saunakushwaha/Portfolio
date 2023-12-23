@@ -1,5 +1,7 @@
 .header
 {
+    position: relative;
+    right: 0%;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -56,11 +58,66 @@
     left: 0.5%;
      margin-bottom: 5%;
 }
-@media only screen and (max-width:1500px) {
-    .header{
-        justify-content: space-evenly;
+@media only screen and (max-width:1440px) {
+    
+    .underline1
+    {
+        
+        position: relative;
+        width: 105%;
+        background-color:  #950740;
+        height: 2px;
+        left: 0.5%;
+         margin-bottom: 5%;
     }
+
+    .header
+{
+    position: relative;
+    right: 0%;
+    display: flex;
+    flex-direction: row;
+    width: 105%;
     
 }
+}
 
-   
+@media only screen and (max-width:450px) {
+    
+    .underline1
+    {
+        
+        position: relative;
+        width: 160%;
+        background-color:  #950740;
+        height: 2px;
+        left: 0.5%;
+         margin-bottom: 5%;
+    }
+}
+@media only screen and (max-width:380px) {
+    
+    .underline1
+    {
+        
+        position: relative;
+        width: 178%;
+        background-color:  #950740;
+        height: 2px;
+        left: 0.5%;
+         margin-bottom: 5%;
+    }
+}
+@media only screen and (max-width:320px) {
+    
+    .underline1
+    {
+        
+        position: relative;
+        width: 210%;
+        background-color:  #950740;
+        height: 2px;
+        left: 0.5%;
+         margin-bottom: 5%;
+    }
+}
