@@ -30,7 +30,7 @@
 {
     display:flex;
     flex-direction: row;
-    width: 100vh;
+  
 }
 
 .discription{
@@ -74,7 +74,7 @@
 {
     display:flex;
     flex-direction: row;
-    width: 100vh;
+   
     gap:10rem;
 }
     
