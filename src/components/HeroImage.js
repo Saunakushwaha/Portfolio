@@ -10,7 +10,7 @@ const Heroimage = () => {
       <div className="content">
         <div className="main-Image">
 
-          <img className="selfImage" src={Saunak} alt="saunak" />"
+          <img className="selfImage" src={Saunak} alt="saunak" />
         </div>
         <div className="aboutme">
           <h2>MY NAME IS.....</h2>
@@ -40,7 +40,7 @@ const Heroimage = () => {
       </div>
 
     </div>
-     <div className="underline"></div>
+     {/* <div className="underline"></div> */}
      </>
   )
 }

@@ -1,8 +1,11 @@
 import "./NavbarStyles.css";
 import React from 'react';
-
+import pic from '../assets/menu-3-line.png'
 import { Link } from "react-router-dom";
-
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 
 
 const goToAbout = () => {
@@ -57,12 +60,9 @@ const Navbar = () => {
             </div>
 
 
-            {/* <div className="hamburger" onClick={handleclick}>
-                    {click ? (<FaTimes size={20} style={{ color: "white" }} />)
-                        :
-                        (<FaBars size={20} style={{ color: "white" }} />)
-                    }
-                </div> */}
+             <div className="hamburger" >
+                <img src={pic} alt="" />
+                </div> 
                 
        
         </div>

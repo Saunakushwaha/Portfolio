@@ -1,8 +1,8 @@
 .footer{
     position: relative;
-    top: 90vh;
+    
     width: 100%;
-     padding: 6rem 0;
+    
    
     color: white;
 }
@@ -21,7 +21,7 @@
 {
     position:relative;
     text-align:center;
-    padding: 0.3rem;
+    padding: 0.2vw;
      margin: auto;
      width: 13%;
     border-radius: 10px;
@@ -29,11 +29,12 @@
     background-color: yellow;
 }
 
-.content
+.contents
 {
     display: flex;
     flex-direction: row;
-    padding: 2rem;
+    justify-content: center;
+    padding: 2vw;
 }
 
 .location
@@ -57,18 +58,11 @@
     margin: auto;
     
 }
-
-.right{
-    height: 100%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    margin-left: 10rem;
-} 
+ 
  .social
 {
-    margin-top: 1rem;
+    margin-top: 2vmax;
+
     
     
 }
@@ -86,4 +80,32 @@ p{
     font-size:large;
     margin: auto;
     text-align: center;
+}
+
+@media (max-width:600px) {
+    
+    .Sub-heading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2vw;
+     margin: auto;
+     width:40% ;
+ 
+}
+.contents
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3vh;
+}
+.social
+{
+    margin-left: 3.5vh;
+    
+}
+
 }

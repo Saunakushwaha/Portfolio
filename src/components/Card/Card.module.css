@@ -74,15 +74,9 @@
     text-align: center;
 }
 
-@media screen and (max-width: 770px)
-{
-    .main 
-    {
-        margin: 20px 0px;
-    }
-}
 
-@media screen and (max-width: 400px)
+
+@media screen and (max-width: 600px)
 {
     .main 
     {
@@ -94,6 +88,16 @@
     {
         width: 90%;
     }
+
+   .btns
+
+{    
+    position: relative;
+    padding: 12px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
 }
 
 

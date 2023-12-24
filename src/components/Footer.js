@@ -14,7 +14,7 @@ const Footer = () => {
                     <h1>CONTACT</h1>
                     </div>
                     
-                    <div className="content">
+                    <div className="contents">
                         <div className="location">
 
 
@@ -31,6 +31,7 @@ const Footer = () => {
                                 saunakkushwaha@gmail.com</h4>
                         </div>
                     </div>
+
                     <div className="social">
                         <a href="https://m.facebook.com/profile.php?eav=AfacZ-HYhzmLP838sUEPj6gcoL8bJdGfuyCqoNDcjNQSWVdGGRMwB1ZqGjZSb19REvA&paipv=0">
                             <FaFacebook size={30} style={{ color: "#fff", marginRight: "1rem" }} /></a>

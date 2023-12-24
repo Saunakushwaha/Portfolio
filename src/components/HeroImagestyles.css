@@ -1,84 +1,86 @@
-.aboutme
+  .hero
 {
-    position: relative;
-    margin: auto;
-    right: 1%;
-    font-size: xx-large;
-    font-family:'Concert One', sans-serif;
-    color: #edf5e1;
-}
-.aboutme2
-{
-    position: relative;
-    font-size: x-large;
-    left: 10%;
-    color: #edf5e1;
+    width:100%;
+    /* background-color: pink; */
     
 }
-.aboutme2 span{
-    font-style: italic;
-    color: aquamarine;
+ .content
+{
+    
+    justify-content: center;
+    display: flex;
+    gap: 30vmax 
+
+}   
+.selfImage{
+    max-width: 50vw;
+    max-height: 40vh;
+    border-radius: 10px;
+    margin: 1vh;
+
 }
 .block
 {
-    background-color:#A33327 ;
-    padding: 10px;
-    text-align: center;
-    border-radius: 20px;
+    display: flex;
+    background-color: brown;
+   justify-content: center;
+   align-items: center;
+    height: 7vh;
+    border-radius: 2vw;
 }
-.content
+.aboutme
 {
-    display:flex;
-    flex-direction: row;
-  
+    font-size: 2vmax;
+    color: beige;
+}
+
+.hero-con
+{
+    color: whitesmoke;
 }
 
 .discription{
+   
+    width: 50vw;
+    font-size: 1.5vmax;
+    margin-left: 12.5vw;
     
-    width: 100vh;
-    margin: auto;
-    margin-left: 10%;
-    margin-top: 5%;   
 }
-.hero-con
+.aboutme2 span{
+    color: aqua;
+    font-style: italic;
+    
+}
+@media (max-width:600px) {
+    .selfImage
+    {  max-width: 30vw;
+        max-height: 40vh;
+
+    }
+    .content{
+        gap: 5vmax ;
+  
+    }
+    .block
 {
     display: flex;
-    flex-direction: row;
+    background-color: brown;
+   justify-content: center;
+   font-size: medium;
+    width: 45vw;
+    height: 4vh;
+    border-radius: 4vw;
+    margin-bottom: 10px;
 }
-.heading1
+.aboutme
 {
-    position: relative;
-    font-size: x-large;
-    left: 10%;
-}
-.main-Image{
-   display: flex;
-   flex-direction: row;
-   justify-content: flex-start;
-   margin: auto;
-  margin-left: 10%;
+    font-size: 2vmax;
 }
 
- 
-
-.selfImage{
-    position: relative;
-    background-color: whitesmoke;
-    width: 50vh;
-    border-radius: 10%;
-    left: 10%;
+.discription{
+    width: 80%;
+    font-size: 2.5vh;
+    margin-left: 6vw;
+    line-height: 2.5vh;
 }
-
-@media screen and (max-width:1440px) {
-    .content
-{
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap:8rem;
 }
-    
-}
-
-
-
