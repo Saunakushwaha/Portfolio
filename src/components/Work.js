@@ -12,11 +12,12 @@ const Work = () => {
         {
           return (
             <Card
-n           // imgsrc={val.imgsrc}
+n           imgsrc={val.imgsrc}
             Heading={val.title}
-            Description={val.text}
+            description1={val.text}
+           
             Linkview={val.view}
-            Linksource={val.text}
+            Linksource={val.source}
             />
           );
         })}

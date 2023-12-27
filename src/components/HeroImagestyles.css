@@ -1,86 +1,83 @@
   .hero
 {
     width:100%;
-    /* background-color: pink; */
-    
-}
- .content
-{
-    
+    background-color:#1B4E8D; 
+    padding: 4vh 0;
+    line-height: 4vh;
     justify-content: center;
     display: flex;
-    gap: 30vmax 
+    gap: 8vmax 
+} 
 
-}   
 .selfImage{
-    max-width: 50vw;
-    max-height: 40vh;
-    border-radius: 10px;
-    margin: 1vh;
+    max-width: 70vw;
+    max-height: 70vh;
+ }
 
-}
 .block
 {
-    display: flex;
-    background-color: brown;
-   justify-content: center;
-   align-items: center;
-    height: 7vh;
-    border-radius: 2vw;
-}
-.aboutme
-{
-    font-size: 2vmax;
-    color: beige;
+     
+  font-weight: bold;
+  font-size: 2vmax;
 }
 
-.hero-con
+.aboutme
 {
-    color: whitesmoke;
+    font-size: 1.8vmax;
+    color: beige;
+ 
+}
+
+ .head-dt{
+text-align: left;
+line-height: 2.5vh;
 }
 
 .discription{
-   
-    width: 50vw;
-    font-size: 1.5vmax;
-    margin-left: 12.5vw;
-    
+ width: 50vw;
 }
-.aboutme2 span{
-    color: aqua;
-    font-style: italic;
+.discription p{
+ font-size: 1.3vmax;
+}
+
+.about-btn button
+{
+    background-color: transparent;
+    border: solid 3px;
+    border-color: white;
+    border-radius: 10px;
+    width: 9vmax;
+    height: 7vmin;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 1.1vmax;
+    cursor: pointer;
     
+   
 }
 @media (max-width:600px) {
+    .hero{
+        flex-direction: column-reverse;
+        gap: 0vh;
+    }
     .selfImage
-    {  max-width: 30vw;
-        max-height: 40vh;
+    {  max-width: 70vw;
+        max-height: 70vh;
+       margin-left: 18vw;
 
     }
-    .content{
-        gap: 5vmax ;
-  
-    }
-    .block
-{
-    display: flex;
-    background-color: brown;
-   justify-content: center;
-   font-size: medium;
-    width: 45vw;
-    height: 4vh;
-    border-radius: 4vw;
-    margin-bottom: 10px;
-}
+    
+    
 .aboutme
 {
     font-size: 2vmax;
+    margin-left: 6vw;
+    
 }
 
 .discription{
-    width: 80%;
+    width: 99%;
     font-size: 2.5vh;
-    margin-left: 6vw;
     line-height: 2.5vh;
 }
 }

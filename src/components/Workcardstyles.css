@@ -2,16 +2,18 @@
 {
     width: 100%;
      overflow-x: hidden;
+     background-color:aliceblue;
+     margin-top: 10vh;
+     padding-bottom: 5vh;
     
 }
 .project-heading
 {
-    font-family: 'Concert One', sans-serif;
-    color: antiquewhite;
-    text-decoration-line: underline;
-    text-align: center;
+     
+    margin-left: 4.5VW;
+    margin-top: 2vw;
      width: 100%; 
-}
+}   
 .project-container
 {
     position: relative;
@@ -29,7 +31,7 @@
     margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    margin-right: 5vw;
     align-items: center;
 }
 }

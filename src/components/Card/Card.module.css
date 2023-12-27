@@ -4,9 +4,9 @@
 .main 
 {
     width: 375px;
-    height: 380px;
+    height: 68vh;
     background-color: #F0F0F0;
-    border-radius: 15px;
+    box-shadow: -0.1vmax 0.1vmax 5px 0.3vw grey;
     /* margin: 20px; */
     display: flex;
     flex-direction: column;
@@ -21,16 +21,16 @@
     width: 350px;
     background-color: black;
     height: 180px;
-    border-radius: 15px;
+    
     margin-top: 20px;
-}
+} 
 
 .heading 
 {
-    font-family: 'Concert One',sans-serif;
+   
     font-size: x-large;
     text-align: center;
-    text-decoration: underline;
+    
     margin: 10px 0px;
 }
 
@@ -46,9 +46,8 @@
     position: relative;
     margin: auto;
     width: 20vw;
-   display: flex;
-  
-     gap: 6vw;
+    display: flex;
+    gap: 6vw;
     flex-direction: row;
     
 
@@ -57,11 +56,12 @@
 .btns
 
 {
-    background-color:#689775;
-    border-radius: 10px;
+    background-color:transparent;
+    border-radius: 5px;
+    border: 0.2vmax solid;
     width: 100%;
-   font-size: large;
-    padding: 10px;
+    font-size: large;
+    padding: 0.5vmax;
     text-align: center;
     margin: auto;
     cursor: pointer;
@@ -86,22 +86,27 @@
     .imageDiv
     {
         width: 90%;
+
     }
+
+
 .btn{
     flex-direction: column ;
-    flex-wrap: wrap;
-
+    gap: 2vh;
+    font-size: 1.5vmax;
+    width: 50%;
+    justify-content: center;
+    align-content: center;
    
 }
    .btns
 
 {    
+    border: 0.3vmax solid;
    
     position: relative;
-    padding: 12px;
     text-align: center;
-    margin: auto;
-    cursor: pointer;
+      cursor: pointer;
 }
 }
 

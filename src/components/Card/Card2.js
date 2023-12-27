@@ -3,10 +3,11 @@ import CardCss from './Card.module.css';
 
 function Card(props) {
    return (
+      
       <>
          <div className={CardCss.main}>
             <div className={CardCss.imageDiv}>
-               <img style={{ width: '100%', height: '100%', borderRadius: '15px' }} src={props.Image} alt='' />
+               <img style={{ width: '100%', height: '100%' }} src={props.imgsrc} alt='' />
             </div>
             <div className={CardCss.headingDiv}>
                <h1 className={CardCss.heading}>{props.Heading}</h1>
@@ -18,7 +19,8 @@ function Card(props) {
             </div>
             <div className={CardCss.btn}>
             <div className={CardCss.btns}>
-                <a href={props.LInkview}>View</a>
+             
+                <a href="a">View</a>
               
             </div>
             <div className={CardCss.btns}>

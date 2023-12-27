@@ -1,47 +1,41 @@
 import "./HeroImagestyles.css";
 import React from 'react';
 
-import Saunak from "./assets/Saunak (3).jpg";
 
+import Picture3 from "./assets/Picture3.png"
 const Heroimage = () => {
+  const goToProjects = () => {
+    window.scrollTo({ top: 1400, left: 0, behavior: "smooth" });
+  
+}
+const goToProjects2 = () => {
+  window.scrollTo({ top: 140, left: 0, behavior: "smooth" });
+}
   return (
     <>
-    <div className="hero">
-      <div className="content">
-        <div className="main-Image">
+      <div className="hero">
+       
 
-          <img className="selfImage" src={Saunak} alt="saunak" />
-        </div>
-        <div className="aboutme">
-          <h2>MY NAME IS.....</h2>
-          <h2>SAUNAK KUSHWAHA</h2>
-          <div className="block">I'M A REACT DEVELEPOR</div>
-        </div>
-
-      </div>
-
-
-
-
-      <div className="hero-con">
-        <div className="discription">
-          <div className="heading1"><h2>who am I ??</h2></div>
-          <div className="aboutme2">
-            <p><h3>Greetings!</h3>I'm a passionate <span style={{ fontWeight: "bold" }}>React developer</span>, dedicated to crafting seamless and engaging user experiences through the power of cutting-edge web technologies.</p>
-
-            <p>With a strong foundation in <span style={{ fontWeight: "bold" }}>Data Structures and Algorithms (DSA)</span>, I thrive on solving complex problems and optimizing code for efficiency.</p>
-
-
-            <p> I am a fervent tech enthusiast, constantly exploring the ever-evolving landscape of technology. I believe in the transformative potential of innovation and am committed to staying at the forefront of the tech world.</p>
+          <div className="aboutme">
+            <div className="head-dt">
+            <h3>Hello,</h3>
+            <h2>I'm Saunak Kushwaha</h2>
+            </div>
+            <div className="block"> REACT DEVELEPOR</div>
+            <div className="discription">
+            <p>I'm a dedicated React developer passionate about creating seamless user experiences through cutting-edge web technologies. My strong foundation in Data Structures and Algorithms enables me to excel in problem-solving and code optimization, ensuring high-quality solutions with efficiency.</p>
           </div>
-
+          <div className="about-btn">
+          <button onClick={goToProjects}>My Projects</button>
         </div>
+          </div>
+          <div className="main-Image">
 
-      </div>
-
-    </div>
-     {/* <div className="underline"></div> */}
-     </>
+            <img className="selfImage" src={Picture3} alt="saunak" />
+          </div>
+        </div>
+     
+    </>
   )
 }
 

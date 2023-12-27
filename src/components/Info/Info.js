@@ -1,6 +1,6 @@
 import "./Infocard.css";
 import React, { useState } from 'react'
-
+import clgpic from '../assets/LNMIIT VIEW.jpg'
 import Infodataskill from "./Infodataskill";
 import Card from "../Card/Card";
 
@@ -13,41 +13,53 @@ const Info = () => {
     <>
     <div className="info-container">
       <div className="education">
+      
+      <div className="clg">
+        <img className="clg-img" src={clgpic} alt="" />
+      </div>
+      <div>
       <h1 className="info-heading">Educational Qualifications</h1>
-      <div className="edu-tabs">
-        <div className={toggleState===1?"tab-live":"tab" }onClick={() => toggleTab(1)}>
-          <h2>Class-10th </h2>
-          </div>
-        <div className="divide"><h1>|</h1></div> 
-        <div className={toggleState===2?"tab-live":"tab" } onClick={() => toggleTab(2)}><h2>Class-12th </h2></div>
-        <div className="divide" ><h1>|</h1></div> 
-        <div className={toggleState===3?"tab-live":"tab" } onClick={() => toggleTab(3)}><h2>Undergraduate </h2></div>
+      <div className="edu-info">
+      <div className="edu-dt">
+        <div className="year">
+        <h3>The LNM Institute of Information Techonolgy</h3>
+        <h5 >2021-2025</h5>
+        </div>
+        
+        
+        <h5>Btech Computer Sciecnce Engineering</h5>
+        <h5>CGPA - 6.91</h5>
+      </div>
       </div>
       <div className="edu-info">
-        <div className={toggleState===1?"info":"info-display"}>
+      <div className="edu-dt">
+        <div className="year">
+        <h3>St Thomas School</h3>
+        <h5 >2021</h5>
+        </div>
         
-        10th Class 2019
-        St.Thomas School, Kanpur
-        Percentage: 94.4
-        </div>
-        <div className={toggleState===2?"info":"info-display"}>
-             
-         12th Class 2021
-        St.Thomas School, Kanpur
-        Percentage: 91.5
-        </div>
-        <div className={toggleState===3?"info":"info-display"}>
-          
-       B.tech CSE 2021-2025
-      The LNM Institute of Information Technology
-        CGPA: 6.91
         
-        </div>
-
-
+        <h5>International Schooling Certificate (ISC)</h5>
+        <h5>Percentage - 91%</h5>
       </div>
       </div>
-      <div className="skills">
+      <div className="edu-info">
+      <div className="edu-dt">
+        <div className="year">
+        <h3>St Thomas School</h3>
+        <h5 >2019</h5>
+        </div>
+        
+        
+        <h5>Indian Certificate of Secondary Education (ICSE)</h5>
+        <h5>Percentage - 94%</h5>
+      </div>
+      </div>
+      </div>
+      
+      
+      </div>
+      {/* <div className="skills">
       <h1 className="info-heading">Skills</h1>
       <div className="cards">
       {Infodataskill.map((val, ind)=>
@@ -65,9 +77,9 @@ const Info = () => {
         })}
       
       </div>
-     </div>
+     </div> */}
     </div>
-    <div className="underline"></div>
+   
     </>
   )
 }

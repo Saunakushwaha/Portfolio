@@ -4,18 +4,10 @@
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&family=Open+Sans:ital,wght@0,300;1,300&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:wght@700&family=Poppins:wght@300&display=swap');
 
 body{
-  background-color: #1a1a1a;
-  font-family: 'Concert One',sans-serif;
+    
+  font-family: 'Roboto',sans-serif;
+  color: black;
+  scroll-behavior: smooth;
+  background-color: whitesmoke;
 
 }
-/* .underline
-{
-    position: relative;
-    width: 10vw;
-    background-color:  #950740;
-    height: 2px;
-    left: 0.5%;
-    right: 0%;
-     margin-bottom: 5%
-   
-} */

@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 
 const goToAbout = () => {
-    window.scrollTo({ top: 1250, left: 0, behavior: "smooth" });
+    window.scrollTo({ top: 700, left: 0, behavior: "smooth" });
 }
 // const goToTop = () => {
 //     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -18,7 +18,7 @@ const goToContacts = () => {
     window.scrollTo({ top: 3600, left: 0, behavior: "smooth" });
 }
 const goToProjects = () => {
-    window.scrollTo({ top: 2100, left: 0, behavior: "smooth" });
+    window.scrollTo({ top: 1400, left: 0, behavior: "smooth" });
 }
 
 const Navbar = () => {
