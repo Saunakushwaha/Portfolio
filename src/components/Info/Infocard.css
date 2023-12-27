@@ -28,12 +28,19 @@
     height: 15vh;
     margin-left: 5vw;
     margin-bottom: 2vh;
-
-}
-.edu-info{
     padding-left:0.5vw;
     line-height: 1vh;
+    transition:  width 0.5s, height 0.5s,margin-left 0.5s ;
 }
+.edu-info:hover{
+    width: 47vw;
+    height: 17vh;
+    margin-left: 3vw;
+    margin-right: 2vw;
+    
+
+}
+
 .edu-dt{
     margin-left: 0.5vw;
 }
@@ -104,6 +111,14 @@
         margin-left: 0vw;
         margin-bottom: 2vh;
    
+    }
+    .edu-info:hover{
+        width: 72vw;
+        height: 22vh;
+        margin-left: -2vw;
+        margin-right: 2vw;
+        
+    
     }
 
  }
