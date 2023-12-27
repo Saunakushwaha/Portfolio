@@ -1,5 +1,5 @@
 import "./Infocard.css";
-import React, { useState } from 'react'
+
 import clgpic from '../assets/LNMIIT VIEW.jpg'
 
 const Info = () => {
