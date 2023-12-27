@@ -8,9 +8,7 @@ const Heroimage = () => {
     window.scrollTo({ top: 1400, left: 0, behavior: "smooth" });
   
 }
-const goToProjects2 = () => {
-  window.scrollTo({ top: 140, left: 0, behavior: "smooth" });
-}
+
   return (
     <>
       <div className="hero">

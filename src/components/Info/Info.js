@@ -1,14 +1,9 @@
 import "./Infocard.css";
 import React, { useState } from 'react'
 import clgpic from '../assets/LNMIIT VIEW.jpg'
-import Infodataskill from "./Infodataskill";
-import Card from "../Card/Card";
 
 const Info = () => {
-  const [toggleState, setToggleState] = useState(1)
-  const toggleTab = (index) =>{
-    setToggleState(index)
-  }
+  
   return (
     <>
     <div className="info-container">
@@ -59,25 +54,7 @@ const Info = () => {
       
       
       </div>
-      {/* <div className="skills">
-      <h1 className="info-heading">Skills</h1>
-      <div className="cards">
-      {Infodataskill.map((val, ind)=>
-        {
-          return (
-            <Card 
-            Image={val.img}
-            Heading={val.title}
-            description1={val.text1}
-            description2={val.text2}
-            
-            
-            />
-          );
-        })}
-      
-      </div>
-     </div> */}
+     
     </div>
    
     </>
