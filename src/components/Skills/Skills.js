@@ -4,12 +4,12 @@ import logoimg from "../assets/img-logo.png";
 const Skills = () => {
   const [langcontent, setlangContent] = useState(false);
   const [coursecontent, setcourseContent] = useState(false);
-  const [datacontent, setdataContent] = useState(false);
+  
   const handleLang = (event) => {
     setlangContent((current) => !current);
     if(langcontent===false){
       setcourseContent(false);
-      setdataContent(false);
+      
     }
    
   };
@@ -18,7 +18,7 @@ const Skills = () => {
     setcourseContent((current) => !current);
     if(coursecontent===false){
       setlangContent(false);
-      setdataContent(false);
+     
     }
   };
 
