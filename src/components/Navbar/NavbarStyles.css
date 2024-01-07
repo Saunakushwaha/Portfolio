@@ -21,12 +21,38 @@
     display: flex;
     gap: 2vw;
     margin-right: 2vw;
+    width: 100%;
+    justify-content: flex-end;
+
 }
 .links
 {
     color: black;
     text-decoration: none;
 }
+.links h2 {
+    display: inline-block;
+    position: relative;
+}
+.links h2:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  
+  .links h2:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 .hamburger
 {
     display: none;
@@ -38,11 +64,29 @@
     height: 0.3vh;
     margin: 1vw auto;
 }
+.hamlinks{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-content: center;
+    width: 35%;
+    height: 20vh;
+    font-size: 1.2vmax;
+    background-color:rgb(164, 164, 164,0.7);
+    position: absolute;
+    top: 14vmin;
+    right: 1vmax;
+    
+}
 
 @media (max-width:600px) {
     .hamburger{
         display: flex;
         margin-right: 5vw;
+    }
+    .hamburger img{
+        width: 2vmax;
     }
     .navmenu{
         display: none;

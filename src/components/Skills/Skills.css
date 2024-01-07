@@ -1,0 +1,118 @@
+.skills {
+  height: 80vh;
+  margin-top: 10vh;
+}
+.sheading {
+  margin-left: 4.5vw;
+
+  width: 90%;
+}
+
+.logoimg {
+  display: flex;
+  flex-direction: row;
+  gap: 10vw;
+}
+
+.skillimg img {
+  width: 50vmax;
+  height: 40vmin;
+  margin-left: 4.5vw;
+  margin-top: 2vw;
+}
+.skillheading {
+  display: flex;
+  flex-direction: column;
+  line-height: 7vh;
+}
+.skillheading h2:hover {
+  cursor: pointer;
+}
+.skillcontent {
+  line-height: 4vh;
+  height: 55vh;
+  transition: height 3s;
+  overflow-y: hidden;
+}
+
+.skillcontent-no {
+  overflow-y: hidden;
+  line-height: 4vh;
+  height: 0vh;
+  transition: height 1s;
+}
+
+.techskill {
+  margin-top: 5vh;
+}
+
+.techskill li:hover {
+  font-size: 1.4vmax;
+  transition: font-size 0.2s;
+  cursor: pointer;
+}
+.list {
+  list-style: none;
+}
+.items {
+  text-align: center;
+  /* background-color: aquamarine; */
+  width: 10vw;
+  margin: 0vh 0;
+}
+
+.list li {
+  font-size: 1vmax;
+}
+
+@media (max-width: 600px) {
+  .logoimg {
+    flex-direction: column;
+  }
+  .skillimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ .skillimg img{
+  width: 80%;
+ }
+  .skillheading h2 {
+    font-size: large;
+  }
+  .techskill {
+    margin-top: 3vh;
+    text-align: center;
+    margin-right: 50vw;
+    width: 100%;
+  }
+  .skillcontent {
+    line-height: 4vh;
+    height: 25vh;
+  }
+  .list {
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    justify-content: center;
+    margin-right: 10vw;
+  }
+
+  .techskill li {
+    text-align: center;
+    list-style: none;
+    font-size: 2vmax;
+    line-height: 3vh;
+    display: flex;
+  }
+  .items-head {
+    line-height: 2vh;
+  }
+
+  .items li {
+    display: flex;
+    justify-content: center;
+    margin-left: 5vmax;
+    margin-top: 1vmax;
+  }
+}

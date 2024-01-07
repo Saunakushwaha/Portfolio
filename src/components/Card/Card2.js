@@ -7,7 +7,7 @@ function Card(props) {
       <>
          <div className={CardCss.main}>
             <div className={CardCss.imageDiv}>
-               <img style={{ width: '100%', height: '100%' }} src={props.imgsrc} alt='' />
+               <img src={props.imgsrc} alt='' />
             </div>
             <div className={CardCss.headingDiv}>
                <h1 className={CardCss.heading}>{props.Heading}</h1>
@@ -20,11 +20,11 @@ function Card(props) {
             <div className={CardCss.btn}>
             <div className={CardCss.btns}>
              
-                <a href="a">View</a>
+                <a href={props.Linkview}>View</a>
               
             </div>
             <div className={CardCss.btns}>
-            <a href={props.LInksource}>Source</a>
+            <a href={props.Linksource}>Source</a>
               
             </div>
             </div>

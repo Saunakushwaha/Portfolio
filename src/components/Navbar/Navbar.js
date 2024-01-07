@@ -1,7 +1,9 @@
 import "./NavbarStyles.css";
 import React from 'react';
-import pic from '../assets/menu-3-line.png'
+import pic from '../assets/menu.png'
+import pic2 from "../assets/cross.png"
 import { Link } from "react-router-dom";
+import { useState } from "react";
 <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
     rel="stylesheet"
@@ -24,8 +26,8 @@ const goToProjects = () => {
 const Navbar = () => {
 
 
-    // const [click, setClick] = useState(false);
-    // const handleclick = () => setClick(!click);
+    const [click, setClick] = useState(false);
+     const handleClick = () => setClick(!click);
 
     // const [color, setColor] = useState(false);
 
@@ -37,7 +39,7 @@ const Navbar = () => {
                 <h1>Portfolio.</h1>
             </div>
 
-            <div className="navmenu">
+            <div className={click?"hamlinks":"navmenu"}>
                 <Link className="links" to="/" >
                     <h2>Home</h2>
                 </Link>
@@ -59,9 +61,12 @@ const Navbar = () => {
 
             </div>
 
+            <div className="ham-in-menu">
 
+                
+            </div>
              <div className="hamburger" >
-                <img src={pic} alt="" />
+                <img onClick = {handleClick} src={click?pic2:pic} alt="" />
                 </div> 
                 
        

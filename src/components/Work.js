@@ -15,7 +15,6 @@ const Work = () => {
 n           imgsrc={val.imgsrc}
             Heading={val.title}
             description1={val.text}
-           
             Linkview={val.view}
             Linksource={val.source}
             />

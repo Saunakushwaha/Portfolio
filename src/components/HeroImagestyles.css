@@ -10,8 +10,8 @@
 } 
 
 .selfImage{
-    max-width: 70vw;
-    max-height: 70vh;
+    width: 32vmax;
+    height: 60vmin;
  }
 
 .block
@@ -61,9 +61,9 @@ line-height: 2.5vh;
         gap: 0vh;
     }
     .selfImage
-    {  max-width: 70vw;
-        max-height: 70vh;
-       margin-left: 18vw;
+    {  width: 70vmax;
+       height: 70vh;
+       margin-left: 18vmin;
 
     }
     
@@ -81,3 +81,12 @@ line-height: 2.5vh;
     line-height: 2.5vh;
 }
 }
+
+@media (max-width:800px) {
+    .selfImage{
+        width: 35vmax;
+        height: 60vmin;
+     }
+        
+}
+

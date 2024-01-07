@@ -17,7 +17,7 @@ const Info = () => {
       <div className="edu-info">
       <div className="edu-dt">
         <div className="year">
-        <h3>The LNM Institute of Information Techonolgy</h3>
+        <h5 >The LNM Institute of Information Techonolgy</h5>
         <h5 >2021-2025</h5>
         </div>
         
@@ -29,7 +29,7 @@ const Info = () => {
       <div className="edu-info">
       <div className="edu-dt">
         <div className="year">
-        <h3>St Thomas School</h3>
+        <h5>St Thomas School</h5>
         <h5 >2021</h5>
         </div>
         
@@ -41,7 +41,7 @@ const Info = () => {
       <div className="edu-info">
       <div className="edu-dt">
         <div className="year">
-        <h3>St Thomas School</h3>
+        <h5>St Thomas School</h5>
         <h5 >2019</h5>
         </div>
         
