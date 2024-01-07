@@ -15,7 +15,7 @@ const Form = () => {
             
         </form>
         <div className="message">
-                <h4>* submit the email will contact you shortly</h4>
+                <h4>* Kindly submit your email, will contact you shortly</h4>
                 </div>
     </div>
   )
