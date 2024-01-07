@@ -22,13 +22,6 @@ const Skills = () => {
     }
   };
 
-  const handleData = (event) => {
-    setdataContent((current) => !current);
-    if(datacontent===false){
-      setlangContent(false);
-      setcourseContent(false);
-    }
-  };
 
   return (
     <div className="skills">
