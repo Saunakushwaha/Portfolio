@@ -5,6 +5,7 @@ import Project from "../routes/Project"
 import About from './About';
 import Footer from '../components/Footer';
 import Skills from '../components/Skills/Skills';
+import Form from '../components/Form/Form';
 const home = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const home = () => {
       <About/>
       <Project/>   
       <Skills/> 
+      <Form/>
       <Footer/>
     </div>
   )

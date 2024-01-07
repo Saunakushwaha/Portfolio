@@ -1,0 +1,54 @@
+.form{
+    background-color:aliceblue;
+    padding: 2vmin 0;
+    margin-top: 15vmin;
+}
+.form-head{
+    margin-left: 5vmax;
+}
+.lg-username
+{
+    font-size: 3vmin;
+    font-weight: bold;
+    text-align: center;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.forms input{
+    width: 20vmax;
+    height: 5vmin;
+    border: 0.2vmax solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    
+}
+
+.lgpassword{
+    text-align: center;
+    font-size: 3vmin;
+    font-weight: bold;
+    
+}
+.lgmessage{
+    text-align: center;
+    font-size: 3vmin;
+    font-weight: bold;
+}
+.lg-button
+{
+    margin-top: 2vmax;
+    margin-left: 0vmax;
+    width: 9vmax;
+    height: 5vmin;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.message{
+    text-align: center;
+    margin-top: 2vmax;
+}
